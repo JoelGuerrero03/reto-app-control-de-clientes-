@@ -1,0 +1,125 @@
+.content-wrapper {
+    background: #f4f6f9;
+    overflow-x: hidden;
+    padding: 2em;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+}
+
+.swal2-shown aside {
+    height: 100vh;
+}
+
+
+/** Login **/
+
+.login,
+.crear-cuenta {
+    background: #455A64;
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #455A64;
+}
+
+.contenedor-formulario h1 {
+    text-align: center;
+    color: white;
+}
+
+.contenedor-formulario h1 span {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.caja-login {
+    background-color: #F2F2F2;
+    border: 1px solid #707070;
+    max-width: 650px;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 300px;
+    -webkit-box-shadow: 0px 25px 35px -17px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 25px 35px -17px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 25px 35px -17px rgba(0, 0, 0, 0.56);
+    padding: 3rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.campo label {
+    flex: 0 0 100px;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.campo input[type="text"],
+.campo input[type="password"] {
+    height: 3rem;
+    border: 0;
+    flex: 1;
+    border: 1px solid #455A64;
+    border-radius: 5rem;
+    padding-left: 2rem;
+}
+
+.enviar {
+    justify-content: flex-end;
+}
+
+.boton {
+    background-color: #FDD835;
+    text-align: center;
+    transition: background-color .5s ease-in-out;
+    display: block;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    font-weight: 900;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: rgb(219, 184, 29)!important;
+}
+
+.campo a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/** Barra **/
+
+.barra {
+    padding-left: 55em!important;
+    padding-top: 0.5em;
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+}
